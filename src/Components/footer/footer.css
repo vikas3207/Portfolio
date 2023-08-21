@@ -1,0 +1,45 @@
+#footer{
+    background:linear-gradient(transparent,#303e2a);
+    margin: 5rem 0 0;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    font-family: cursive;
+    
+}
+#footer p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+    /* margin: 5px auto 0 ; */
+    padding-bottom: 5px;
+}
+.social-connection{
+   
+}
+.address_details{
+        letter-spacing: 1px;
+}
+.address_details h5{
+    font-size: 17px;
+}
+.address_details p{
+    font-size: 13px;
+    text-align: start !important;
+    margin: 0px !important;
+}
+.social_connection_icon{
+    margin: 0 10px;
+    font-size: 35px;
+    padding: 5px;
+    box-shadow: 0px 0px 3px #c07f00;
+    color: #C07F00;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social_connection_icon:hover{
+    transform: scale(1.2)
+}
